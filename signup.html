@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>WarehouseConnect - Login / Sign Up</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!--This entire h1 section needs to be on every page. It is the area above the nav bar-->
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <img src="img/fadedlogo.jpg" width=9.5% align="left"  hspace="40" alt="logo">
+      <span class="site-heading-upper text-primary mb-3">A new way to rent warehouse spaces</span>
+      <span class="site-heading-lower">WarehouseConnect</span>
+    </h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">WarehouseConnect</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="find_wh.html">Find a Warehouse</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="list_wh.html">List a Warehouse</a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="login_signup.html">Login/Sign Up</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href=".html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">WarehouseConnect</span>
+                <span class="section-heading-lower">Sign Up</span>
+              </h2>
+
+                          
+              <form action = "/action_page.php" method="post">
+                <fieldset>
+                  <p>
+                    <label>E-mail:</label><br>
+                    <input type = "text" id="email" value = "Your E-mail" required />
+                  </p>
+                  <p>
+                    <label>Password:</label><br>
+                    <input type = "password" id="password" value = "secret" required/>
+                  </p>
+                  <p>
+                    <label>Repeat Password:</label><br>
+                    <input type = "password" id="password2" value = "secret" required/>
+                  </p>
+                  <p>
+                    <label>First Name:</label><br>
+                    <input type = "text" id="fname" value = "Your First Name" required/>
+                  </p>
+                  <p>
+                    <label>Last Name:</label><br>
+                    <input type = "text" id="lname" value = "Your Last Name" required/>
+                  </p>
+                  <p>
+                    <label>EIN or Social Security Number:</label><br>
+                    <input type = "text" id="EINSS" value = "EIN or SS Number" required/>
+                  </p>
+                  <p>
+                    <label>Zip Code:</label><br>
+                    <input type = "text" id="zipcode" value = "Your Zip Code" required />
+                  </p>
+                  
+                  <input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms of Use and Privacy Policy 
+
+                  <br><br>
+
+                  <input type="button" value= "Warehouse Owner" onclick = "window.location.href='profilepageWO.html'"/>
+                  <input type="button" value= "Lessee" onclick = "window.location.href='profilepageL.html'"/>
+
+                </fieldset>
+              </form>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">WarehouseConnect</span>
+                <span class="section-heading-lower">Terms of Use &amp; <br>Privacy Policy</span>
+              </h2>
+                <p align="left">
+                  When you visit WarehouseConnect, we do not collect any personally identifiable information about you unless you specifically provide it to us.  Except as required by law or expressly authorized by you, we will not provide any personally identifiable information regarding you to any third parties.<br><br>
+
+                  Your visit to our site is tracked through a standard web analytics program, which keeps records of traffic on the site, as well as a count of visitors by URL, domain, geographic location, search engine, keywords used, and other web measurements.<br><br>
+
+                  If you choose to correspond with us by email, we may retain your email address and the content of your email messages, along with our responses.  Information retained is used to administer our business activities, for providing customer service, and to notify you about important changes about our web site or new services and news items we think you may find valuable.  As a user of our site, you have the opportunity to notify us of your desire to not receive these messages by unsubscribing via email at This email address is being protected from spambots.<br><br>
+
+                  By using the Warehouse Connect website, you consent to our use of your information as described in this Privacy Statement.  We reserve the right to change our Privacy Statement at any time without advance notice.<br><br>
+
+                  To utilize this website as a warehouse owner, you are allowed to have an account that is deemed a "Warehouse Owner." You are not allowed to become a "Lessee" with the warehouse owner account under any circumstances or use our service in the pursuit thereof. To utilize this website as a lessee, you are allowed to have an account that is deemed a "Lessee." You are not allowed to become a "Warehouse Owner" with the lessee account under any circumstances or use our service in the pursuit thereof. If you would like to be a lessee and are currently a warehouse owner, you must make a seperate account. This does not mean that you have to abandon or discountinue the use of any account. If you would like to be a warehouse owner and are currently a lessee, you must make a seperate account. This does not mean that you have to abandon or discountinue the use of any account.
+                </p>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="LSbottom">
+      <h3><strong><u>General Reminder:</u></strong></h3>
+      <br>
+      <p>Any user of Warehouse Connect must have a valid account with us to be able to utilize the Warehouse Connect search funciton. We spent a great deal of time and effort to utilize the very best pratices of alorithms, AI, and a range of other computer programing techniques to give you the best experience. If you are reaching this page because you have tried to search and was re-directed to this page, please sign up or log in. If you have an existing account, please login. If you do not have an exisiting account, please sign up.</p>
+      <br><br><br>
+      <h5>Great you've signed in LEESEE, click below to view your profile page<a href="profilepageL.html"> Here</a></h5>
+      <br>
+     <h5>Great you've signed in WAREHOUSE OWNER, click below to view your profile page<a href="profilepageWO.html"> Here</a></h5>
+    </section>
+
+
+    <br><br> c
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+  <!-- Script to highlight the active date in the hours list -->
+  <script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+  </script>
+
+</html>
